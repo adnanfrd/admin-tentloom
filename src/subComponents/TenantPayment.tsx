@@ -45,7 +45,7 @@ const TenantPayment = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const sortPayments = (type: string) => {
-    let sortedPayments = [...payments];
+    const sortedPayments = [...payments];
   
     switch (type) {
       case "alphabetical":
