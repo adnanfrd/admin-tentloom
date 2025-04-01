@@ -34,13 +34,13 @@ const PaymentOverview = () => {
       <div className="flex flex-col gap-4 sm:gap-6 w-full max-w-md">
         <Link href="/payment-overview/property-payments">
           <button className="w-full bg-blue-500 text-white cursor-pointer px-8 py-4 sm:py-6 rounded-lg text-base sm:text-lg shadow-md hover:bg-blue-600 transition">
-            Property's Payments
+            Property&apos;s Payments
           </button>
         </Link>
 
         <Link href="/payment-overview/tenants-payments">
           <button className="w-full bg-blue-500 text-white cursor-pointer px-8 py-4 sm:py-6 rounded-lg text-base sm:text-lg shadow-md hover:bg-blue-600 transition">
-            Tenant's Payments
+            Tenant&apos;s Payments
           </button>
         </Link>
       </div>

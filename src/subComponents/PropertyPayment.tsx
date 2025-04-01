@@ -18,7 +18,7 @@ const PropertyPayment = () => {
 
 
   const sortPayments = (type: string) => {
-    let sortedPayments = [...payments];
+    const sortedPayments = [...payments];
   
     if (type === "name") {
       sortedPayments.sort((a, b) => a.name.localeCompare(b.name));

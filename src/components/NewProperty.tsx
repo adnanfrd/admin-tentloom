@@ -3,7 +3,6 @@
 import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
-import { ArrowLeft } from "lucide-react";
 import montserratAlternates from "./fonts";
 import Link from "next/link";
 
