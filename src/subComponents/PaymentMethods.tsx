@@ -20,7 +20,7 @@ export default function PaymentMethod() {
 
   return (
     <div className={`${montserratAlternates.className} min-h-[80vh] bg-[#FCFBF7] px-6 py-10 flex flex-col items-center`}>
-      <div className="w-full max-w-7xl">
+      <div className="w-full max-w-3xl">
         {/* Header Section */}
         <div className="flex items-center justify-between px-4 md:px-0">
           <Link 
