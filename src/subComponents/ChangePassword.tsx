@@ -8,7 +8,7 @@ import montserratAlternates from "../components/fonts"; // Import Montserrat Alt
 const ChangePassword: React.FC = () => {
   return (
     <div className={`${montserratAlternates.className} flex flex-col items-center justify-center min-h-[88vh] bg-[#FAF9F6] p-6`}>
-      <div className="w-full max-w-3xl flex flex-col items-center">
+      <div className="w-full max-w-7xl flex flex-col items-center">
         {/* Header Section */}
         <div className="w-full flex items-center justify-between px-4 md:px-0">
           <Link 
